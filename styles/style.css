@@ -1,0 +1,233 @@
+body {
+	font-family: 'Open Sans';
+	color: #6a787c;
+	font-size: 18px;
+	font-weight: 700;
+	text-align: center;
+	line-height: 1.5;
+}
+body a {
+	color: #bdd537;
+	text-decoration: none;
+	font-weight: 700;
+	
+}
+
+
+header {
+	width: 100vw;
+	height: 74px;
+	position: fixed;
+	top: 0;
+	background: #ffffff;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.logo {
+	width: 50px;
+	height: 46px;
+	margin: auto 25px;
+	background: url("../img/title_wideopentech.png")left no-repeat;
+}
+.hambuger {
+	margin: auto 45px;
+}
+.hambuger img {
+	height: 20px;
+	width: 20px;
+}
+
+
+.landing {
+	height: 50vh;
+	min-height: 375px;
+	background: url("../img/wot-masthead-dark.jpg")center no-repeat;
+	background-size: cover;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: flex-end;
+	line-height: .8;
+}
+.landing a {
+	color: #ffffff;
+	text-align: center;
+}
+.landing-text p {
+	color: #ffffff;
+	text-align: center;
+}
+.learn {
+	padding: 4vw 4vw 50px 4px;
+}
+.learn button {
+	background: #bdd436;
+	height: 50px;
+	width: 92vw;
+	color: #ffffff;
+	font-weight: 800;
+	border: 0;
+	border-radius: 25px;
+	align-self: center;
+}
+
+
+.welcome-text {
+	/*width: 100vw;*/
+	background: #f0f0f0;
+	padding: 30px 20px 20px 20px;
+	font-weight: 300;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.welcome-text p {
+	margin: 0;
+	font-size: 25px;
+	text-align: center;
+	line-height: 1.75;
+}
+.welcome-text img {
+	margin-top: 25px;
+}
+.welcome-text h1 {
+	text-align: center;
+	font-weight: 100;
+}
+.welcome-text span {
+	color: #bdd436;
+	font-weight: 900;
+	margin-bottom: 25px
+}
+
+
+.plan {
+	padding: 25px 25px 25px 20px;
+	background: #ffffff;
+	color: #98a3a8;
+	display: flex;
+	justify-content: center;
+}
+.plan-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+#plan-no-margin {
+	margin: 20px;
+}
+.plan img {
+	margin: 50px auto;
+}
+.plan a {
+	margin-top: 25px;
+}
+
+
+
+.we-do  {
+	padding: 25px 25px 20px 25px;
+	background: #f0f0f0;
+	font-family: Oswald';
+	color: #40666d;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.we-do span{
+	color: #bdd436;
+}
+.we-do-div {
+	width: 80%;
+	background: #ffffff;
+	margin-bottom: 15px;
+	padding: 49px 24px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.we-do p {
+	font-size: 24px;
+	line-height: 1.1;
+	font-weight: 100;
+}
+.we-do button {
+	height: 50px;
+	width: 92vw;
+	margin: 56px 0;
+	background: #bdd436;
+	color: #ffffff;
+	font-weight: 800;
+	border: 0;
+	border-radius: 25px;
+	align-self: center;
+}
+.we-do-container {
+	max-width: 475px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.work-with {
+	background: #ffffff;
+	
+}
+.work-container{
+	width: 100%
+}
+.work-with-div {
+	width: 100vw;
+}
+.work-with-div img {
+	width: 100%;
+	height: 100%;
+}
+
+
+.lets-talk {
+	width: 100vw;
+	padding: 50px 0;
+	background: #6a787c;
+	color: #ffffff;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: flex-start;
+	
+}
+.lets-talk h1 {
+	font-size: 30px;
+	font-weight: 500;
+}
+.green-bar {
+	width: 25vw;
+	height: 8px;
+	background: #bdd537;
+}
+.lets-talk button {
+	height: 50px;
+	width: 150px;
+	margin: 30px 0;
+	background: #bdd436;
+	color: #ffffff;
+	font-weight: 800;
+	border: 0;
+	border-radius: 25px;
+	align-self: center;
+}
+
+
+
+footer {
+	background: #f6f6f6;
+}
+footer p {
+	font-size: 12px;
+	font-weight: 100;
+	margin: 18px 0;
+}
+footer a {
+	font-size: 10px;
+}

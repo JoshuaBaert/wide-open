@@ -1,0 +1,50 @@
+header {
+	background: #6a787c;
+}
+.logo {
+	width: 260px;
+}
+.landing {
+	margin-top: 74px;
+}
+.logo {
+	width: 230px;
+}
+.plan {
+	flex-direction: row;
+	justify-content: center;
+}
+.plan-container {
+	max-width: 780px;
+	flex-direction: row;
+	justify-content: center;
+}
+.plan-div {
+	width: 25vw;
+}
+.plan-lines {
+	border-right: #d3d3d3 solid 1px;
+	border-left: #d3d3d3 solid 1px;
+}
+.we-do-table {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+.we-do-container {
+	max-width: 475px;
+	display: flex;
+	flex-direction: column;
+}
+.we-do-div{
+	margin: 0px 6px 16px 6px;
+}
+#left {
+	align-items: flex-end;
+}
+#right {
+	align-items: flex-start;
+}
+.work-with-div {
+	width: calc(100%/3);
+}

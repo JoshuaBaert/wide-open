@@ -1,0 +1,20 @@
+body {
+	/*display: none;*/
+}
+
+.learn button {
+	width: 175px;
+}
+.we-do button {
+	width: 165px;
+}
+
+.work-container {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+.work-with-div {
+	width: 50%;
+}
